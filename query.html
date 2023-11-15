@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url(a1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-left: 350px;
+            justify-content: center;
+            align-items:end;
+
+        }
+    
+        label{
+            display: block;
+            margin-top: 10px;
+            color: rgb(113, 200, 255);
+            
+        }
+        div{
+            background-color: rgba(249, 55, 55, 0.366);
+            border-radius: 10px;
+            width:700px;
+            padding: 50px;
+        }
+        input[type="text"],input[type="Email"],input[type="text"],input[type="Description"],textarea{
+            padding: 5px;
+            width: 100%;
+            border:none;
+            border-radius: 5px;
+        }
+        input[type="Submit"]{
+            background-color: red;
+            color: yellow;
+        }
+        input[type="reset"]{
+            background-color: rgb(47, 0, 255);
+            color:white;
+            border-radius: 10px;
+        }
+        input:focus,select:focus,textarea:focus{
+            background-color: rgb(130, 180, 255);
+        }
+        input[type="Submit"]:hover,input[type="reset"]:hover{
+            background-color: rgb(119, 249, 126);
+            transform: scale(1.5);
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="">
+        <h1 style="color:lawngreen;
+        padding-left: 120px;">Submit to clear your query</h1>
+        <label for="Name">Enter Your Name</label>
+        <input type="text"><br>
+        <label for="Email">Email:</label>
+        <input type="email"><br>
+        <label for="text">Mobile No. :</label>
+        <input type="text"><br>
+        <label for="Description">Description of your query :</label>
+        <textarea name="text" cols="60" rows="10"></textarea><br>
+        <label for="file">Upload Photo (if any)</label>
+        <input type="file"><br>
+        <input type="Submit" value="Submit Form">
+        <input type="reset" Value="Clear Form">
+    </form>
+    </div>
+</body>
+</html>

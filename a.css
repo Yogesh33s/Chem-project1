@@ -1,0 +1,53 @@
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+    font-size: 24px;
+
+}
+header {
+    border-style: inherit;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    font-size: larger;
+    color:white
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+body{
+    background-image: url(a2.jpg);
+    padding-left: 150px;
+    padding-right: 150px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    opacity:2;
+}
+nav ul li{
+    list-style: circle;
+    font-size: 18px;
+    color:white
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+a[ href="query.html"]{
+    color:rgb(43, 0, 255);
+}
+p{
+    font-size: 28px;
+    color:rgb(58, 3, 86);
+    font-style: oblique;
+}

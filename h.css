@@ -1,0 +1,56 @@
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+    font-size: 24px;
+
+}
+header {
+    border-style: inherit;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    font-size: larger;
+    color:white
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+body{
+    background-image: url(h1.jpg);
+    padding-left: 150px;
+    padding-right: 150px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    
+}
+ol li{
+    font-size: 23px;
+    color:aqua;
+}
+nav ul li{
+    list-style: circle;
+    font-size: 18px;
+    color:white
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+ul li{
+        font-size: 23px;
+        color: yellowgreen;
+    }
+p{
+    opacity: 1.1;
+}
